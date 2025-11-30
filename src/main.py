@@ -1,10 +1,9 @@
-from textnode import TextNode, TextType
+from build_content import copy_content
 
 
 print("hello world")
 
 def main():
-    dummy_text_node = TextNode("This is some anchor text", TextType.LINK, "https://www.boot.dev")
-    print(dummy_text_node)
+    copy_content("static", "public")
 
 main()
