@@ -2,7 +2,7 @@ from enum import Enum
 from typing import Text
 
 from htmlnode import ParentNode
-from src.inline_markdown import text_to_textnodes
+from inline_markdown import text_to_textnodes
 from textnode import TextNode, TextType, text_node_to_html_node
 
 class BlockType(Enum):
